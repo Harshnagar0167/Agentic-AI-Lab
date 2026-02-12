@@ -1,1 +1,97 @@
+## **1. Project Overview**
 
+This project implements a **Document-Based Question Answering System** using the Retrieval-Augmented Generation (RAG) architecture. The system allows users to upload a PDF document and ask natural language questions related to its content.
+
+Unlike traditional chatbots that rely only on pre-trained knowledge, this system retrieves relevant information directly from the uploaded document before generating a response. This improves factual accuracy and reduces hallucination.
+
+The workflow of the system includes:
+
+* Loading PDF documents
+* Splitting text into manageable chunks
+* Converting text into vector embeddings
+* Storing embeddings in a vector database (FAISS)
+* Retrieving relevant chunks using similarity search
+* Generating final answers using a Large Language Model (LLaMA 3 via Groq API)
+
+The project demonstrates how modern LLMs can be combined with vector databases to create intelligent, domain-specific AI assistants suitable for enterprise and academic use cases.
+
+---
+
+## **2. Tools & Libraries Used**
+
+The following tools and libraries were used in the development of this project:
+
+### **Programming Language**
+
+* Python
+
+### **Core Libraries**
+
+* LangChain – Framework for building RAG pipelines
+* PyMuPDF / PyPDF – For loading and reading PDF documents
+* Sentence Transformers – For generating embeddings
+* FAISS – Vector database for similarity search
+* LangChain-Groq – For accessing LLaMA 3 model
+* OS – For environment variable management
+
+### **Model Used**
+
+* Embedding Model: `all-MiniLM-L6-v2`
+* Large Language Model: LLaMA 3 (via Groq API)
+
+---
+
+## **3. Instructions to Run the Notebook**
+
+Follow these steps to run the project:
+
+### Step 1: Install Required Libraries
+
+Run the following commands in your environment:
+
+```
+pip install pymupdf
+pip install langchain==0.1.17 langchain-community==0.0.36 langchain-groq
+pip install faiss-cpu pypdf sentence-transformers
+```
+
+---
+
+### Step 2: Set API Key
+
+Set your Groq API key in the notebook:
+
+```python
+import os
+os.environ["GROQ_API_KEY"] = "your_api_key_here"
+```
+
+---
+
+### Step 3: Add the PDF File
+
+Place the PDF file (e.g., `Policy-Manual.pdf`) in the project directory.
+
+---
+
+### Step 4: Run the Notebook
+
+Execute all cells in order:
+
+1. Load the PDF
+2. Split the text into chunks
+3. Generate embeddings
+4. Store embeddings in FAISS
+5. Create the RetrievalQA chain
+6. Ask a query using:
+
+```python
+response = qa_chain.invoke({"query": "Your question here"})
+print(response)
+```
+
+---
+
+### Step 5: View the Output
+
+The system will retrieve relevant document chunks and generate a context-based answer.
