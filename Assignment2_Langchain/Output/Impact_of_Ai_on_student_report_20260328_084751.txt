@@ -1,0 +1,39 @@
+1. Cover Page
+   - Assignment 2: Autonomous Research Agent: Research Report
+   - Ayushi Tiwari: [Your Name]
+   - Agentic AI / LangChain Assignment: Education Technology
+   - 28-03-2026: [Current Date]
+   - Topic: Impact of AI on Students
+
+2. Title
+The Impact of Artificial Intelligence on Students: A Comprehensive Review
+
+3. Introduction
+The integration of Artificial Intelligence (AI) in education has been a topic of interest in recent years. AI has the potential to revolutionize the learning experience, providing students with personalized learning experiences, adaptive learning technologies, and immediate feedback. However, the use of AI in education also raises concerns about data privacy, cheating, and the potential for over-reliance on technology. This report aims to provide a comprehensive overview of the impact of AI on students, highlighting both the benefits and challenges, and discussing the future scope of AI in education.
+
+4. Key Findings
+The following key findings highlight the impact of AI on students:
+* 14% of students say AI has influenced their choice of study, while 34% say it has influenced them somewhat, indicating that AI is having a significant impact on students' academic decisions.
+* 74% of students want to be taught the ethics of using AI, demonstrating a desire for responsible AI use and an understanding of its implications.
+* 62% of students want to learn core skills such as critical thinking and problem-solving, highlighting the importance of balancing technology use with essential life skills.
+* 60% of students want to learn the ins and outs of using AI, showing a keen interest in understanding AI and its applications.
+* AI use in schools comes with real risks, including large-scale data breaches, tech-fueled sexual harassment and bullying, and treating students unfairly, emphasizing the need for careful consideration and planning.
+
+5. Challenges
+The integration of AI in education is not without challenges. Some of the concerns include:
+* Data privacy concerns: The use of AI in education raises concerns about the collection, storage, and protection of student data.
+* Potential for cheating and over-reliance on AI: The ease of access to AI-powered tools can lead to cheating and a lack of critical thinking and problem-solving skills.
+* Equity of access to AI-powered educational tools: Not all students have equal access to AI-powered tools, which can exacerbate existing inequalities in education.
+* Perpetuation of misinformation and bias: AI can perpetuate existing biases and misinformation, which can have negative consequences for students.
+* Digital fatigue and technostress: The overuse of technology can lead to digital fatigue and technostress, which can negatively impact students' mental health.
+
+6. Future Scope
+The future of AI in education looks promising, with the potential to revolutionize the learning experience. However, it is essential to address the challenges and concerns associated with AI use in education. This can be achieved by:
+* Integrating AI in education in a way that supports student learning and well-being.
+* Developing AI training and policies to address potential risks.
+* Teaching ethics of using AI and core skills such as critical thinking and problem-solving.
+* Implementing balanced regulations and robust validation protocols to ensure the responsible use of AI.
+* Preparing students for the job market, where AI is likely to play a significant role.
+
+7. Conclusion
+In conclusion, the impact of AI on students is a complex and multifaceted issue. While AI has the potential to provide personalized learning experiences, adaptive learning technologies, and immediate feedback, it also raises concerns about data privacy, cheating, and the potential for over-reliance on technology. To ensure that AI is used in a way that supports student learning and well-being, it is essential to address the challenges and concerns associated with AI use in education. By doing so, we can harness the potential of AI to revolutionize the learning experience and prepare students for success in an increasingly technology-driven world.
